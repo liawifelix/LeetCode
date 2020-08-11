@@ -12,7 +12,7 @@ public:
 		int d= stoi(date.substr(8,10));
 		
 		int month[12]={31,28,31,30,31,30,31,31,30,31,30,31};
-		if(leep(y))
+		if(leap(y))
 			month[1]+=1;
 		
 		for(int i=0;i<m-1;i++)
@@ -20,7 +20,7 @@ public:
 		ans=ans+d;
 		return ans;
     }
-	bool leep(int year){
+	bool leap(int year){
 		if(year%400==0)
 			return true;
 		else if(year%100==0)
