@@ -9,7 +9,6 @@ public:
 		dp[0]=1;
 		int nmax=1;
 		bool incr;
-		bool same= false;
 		if(A.size()>1){
 			if(A[0]==A[1]){
 				dp[1]=1;
