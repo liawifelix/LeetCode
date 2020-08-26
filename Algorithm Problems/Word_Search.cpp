@@ -1,5 +1,5 @@
 //Word Search
-//Date 26 Aug 2020
+//Date 25 Aug 2020
 //Source https://leetcode.com/problems/word-search/
 
 class Solution {
