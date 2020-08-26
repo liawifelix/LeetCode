@@ -1,5 +1,5 @@
 //Reverse Integer
-//Date 26 Aug 2020
+//Date 25 Aug 2020
 //Source 
 
 class Solution {
